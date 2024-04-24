@@ -1,0 +1,39 @@
+salario = 2000 #Variavel global
+salario2 = 1000
+salario3 = 1500
+
+def salario_bonus(bonus):
+    global salario
+    salario += bonus
+    return salario
+
+
+print(salario_bonus(500)) 
+
+print()
+
+def salario_bonus_2(bonus, lista):
+    global salario2
+    lista.append(2)
+    salario2 += bonus
+    return salario2
+
+lista = [1]
+print(salario_bonus_2(500, lista)) 
+print(lista)
+print()
+
+def salario_bonus_3(bonus, lista1):
+    global salario3
+
+    lista_aux = lista1.copy()
+    lista_aux.append(2)
+    print(f"lista aux = {lista_aux}")
+    
+    salario3 += bonus
+    return salario3
+
+lista1 = [1]
+print(salario_bonus_3(500, lista1)) 
+print(lista)
+

@@ -1,0 +1,222 @@
+Para verificar e cadastrar o nome e email usario no git 
+(Globalmente(--global) caso só no repositorio(--local) 
+
+git config --global user.name "Carlos"
+
+git config user.name 
+
+git config --global user.email "car.l1991@yahoo.com.br"
+
+git config user.email
+
+
+Para visualizar a Branch padrao
+git config init.defaultBranch
+
+Para alterar a Branch padrao
+git config --global init.defaultBranch main
+
+Para veriifcar as configurações feitas 
+git config --global --list (no --global para mostrar só configurações globais)
+
+git config --list --show-origin (--list todas configurações --show-origin local que esta armazenado)
+Para verificar os comandos verificar na documentação
+https://git-scm.com/docs/git-config
+
+
+Para não precisar fica toda vez autenticado com o token com usuario e senha pode acessar a documentações e verificar os passos a seguir 
+salvar as credenciais global 
+git config --global credential.helper store
+
+Salvar as credenciais temporamente (maquina compartilhada)
+git config --global credential.helper cache
+
+https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage
+
+para verificar as configurações feitas 
+cat .gitconfig
+
+Chave SSH
+Verificando se existe chaves SSH
+ls -a ~/.ssh
+
+Gerando as chaves 
+ssh-keygen -t ed25519 -C "car.l1991@yahoo.com.br"
+
+Adicionando a chave ao ssh agente
+eval "$(ssh-agent -s)"
+
+ssh-add ~/.ssh/id_ed25519 - passando a chave privada
+
+
+no GITHUB passa a chave publica
+indo até o diretorio que esta as chaves 
+cd ~/.ssh
+
+ls - para verificar as o conteudo da pasta 
+
+
+cat id_ed25519.pub - para ler o conteudo da chave publica
+
+depois dois clicks no conteudo botão direito e copiar 
+
+
+
+
+Criando e Clonando Repositorios
+
+tranformando em um repositorio git iniciando o git dentro da pasta 
+git init 
+
+
+Clonando um repositorio do servidor remoto git hub para repositorio local
+git clone urlDoRepositorioLadoGitHub
+
+git remote -v ---- Consegue verificar em qual servidor remoto esta vinculado
+
+
+git remote add origin urlDoRepositorioLadoGitHub - pra vincular ao repositorio remoto
+
+
+Para criar um repositorio ja clonado
+git clone urlDoGitHub nome-do-novo-diretorio
+
+
+clonando uma branche especifica 
+git clone urlDoGitHub --branch nome-brach --single-branch
+
+
+git status - mostra os status do repositorio (Stage) mostra os estados do arquivos
+
+
+Documentação do github 
+https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github
+
+
+git log - mostra o historico do commit que foi feito o rest do commit 
+
+
+echo - adicona arquivo 
+echo arquivo/ > .pasta --- exemplo echo resumos/ > .gitignore
+Aqui esta criando um txt .gitignore com resumos dentro do txt
+
+
+touch - cria arquivos vazios 
+exemplo touch pasta/ .gitkeep --- touch aulas/ .gitkeep
+
+
+removendo uma inicialização do git um versionamento 
+rm -rf - remove o arquivo .git a força e todo o seu conteudo
+
+retornando o ultimo estado de um arquivo
+git restore nome-arquivo -- git restore README.md
+
+alterando a mensagem do ultimo commit 
+git commit --amend -m "mensagem_nova"
+
+ou 
+
+git commit --amend   -Aqui ira entrar no editor de texto vim
+aperta o i faz a alteração na mensagem e depois para sair e salvar (esc) :wq
+
+
+desfazendo um commit voltando para um commit anterior 
+git reset --soft restDoCommit 
+Aqui esta na area de preparação staged
+depois só adicionar e da um novo commit 
+
+
+comando para pega os arquivos que estavam no commit anterior e voltar para arquivos que o git identificou como se fosse "novo" ainda ira para a area de preparação fica no estado UNTRACKED File
+git reset --mixed restDoCommit
+
+
+
+Retornando os commits 
+git reset --hard restDoCommite
+Apaga os commit anteriores retpnando para o commit passado 
+
+
+historico mais detalhado dos commites
+git reflog
+
+
+removendo os arquivos da area de preparação
+git restore --staged nomeDoArquivo  exemplo git restore --staged resumos/aula-02.md
+
+
+
+gitt pull - sincroniza o repositorio remoto com o repositorio local.
+
+
+
+git checkout -b nome_branch
+esse comando troca a branche em que setamos para poder trabalhar com ela
+
+
+Podemos trabalhar com duas branch paralelas e quando criamos uma nova branch dentro da branche principal ela carrega os arquivos da branch principal e o commit de cada uma é idependente
+
+
+git branch -v   --- Esse comando lista o ultimo commit de cada branch
+
+
+mesclando os commits
+git merge nomeDabranche   branch que ira ser mesclada na branch principal
+
+
+git branche   --- para ver as branches existentes e a branch que estiver com * é a branch que estamos no momento
+
+
+git branc -d nomeDaBranch  --- Esse comando exclui a branch caso ja tenha feito todo o trabalho na branch e mesclado com a branche principal 
+
+
+
+
+Tratando os conflito 
+Primeiro precisa atualizar o reporitorio local
+git pull 
+e depois verificar as alterações e verificar qual alteração ira permanecer ou mesclar as duas 
+
+
+
+
+git fetch origin main 
+para baixar os arquivo do reporitorio remoto e verificar a alteração isso serve quando não queremos mesclar de cara o que esta no repositorio remoto com o local
+
+
+git diff nomeBranche origin/branche ---- exemplo git diff main origin/main
+Aqui conseguimos ver o arquivo que tem e o conteudo 
+
+
+depois caso seja necessario podemos meslar do remoto para o local
+git merge origin/master
+
+
+caso queira cloner um repositorio que exite varias branche mais só deseje clona uma branche especifica 
+git clone urlDoRepositorioRemoto --branch nomeDaBranche --single-b 
+
+Caso não passe o nome da branche ira clonar a branche principal 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

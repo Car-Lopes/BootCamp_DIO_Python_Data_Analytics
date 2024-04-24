@@ -1,0 +1,5 @@
+#Verifica se contem no conjunto
+numeros = set({1, 2, 3, 1, 2, 4, 5, 5, 6, 7, 8, 9, 0})
+print(1 in numeros)
+print(10 in numeros)
+print()

@@ -1,0 +1,8 @@
+Repositorio
+https://github.com/guicarvalho/trilha-python-dio
+https://github.com/digitalinnovationone/trilha-python-dio
+
+Referencias:
+https://wiki.python.org.br/ModoInterativo
+https://docs.python.org/3/library/functions.html#input
+https://docs.python.org/3/library/functions.html#print
