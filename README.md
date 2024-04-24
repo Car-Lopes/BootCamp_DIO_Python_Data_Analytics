@@ -85,6 +85,7 @@ Um aprendizado sobre python com esse BootCamp é possivel aprender e começar a 
   - Tipos de Graficos, Dashboards, mapas e etec.
   - KPIs
   - Dashboard
+  - Integrando e Extraindo dados de outros sistemas e/ou banco de dados com o Power Query
 
 ## 🛠️ Ferramentas
 
@@ -150,6 +151,7 @@ Um aprendizado sobre python com esse BootCamp é possivel aprender e começar a 
 - [DataBase. Modelagem](https://www.luiztools.com.br/post/padroes-para-modelagem-de-dados-documentos-em-mongodb/)
 - [DataBase. Redis](https://try.redis.io/)
 - [DataBase. MySQL](https://dev.mysql.com/doc/)
+- [DataBase. MySQL_Connector](https://dev.mysql.com/downloads/connector/net/)
 - [POWER BI. Serviço](app.powerbi.com)
 - [POWER BI. Documentation](https://learn.microsoft.com/pt-br/power-bi/fundamentals/power-bi-overview)
 - [Kaggle. DataSet](https://www.kaggle.com/)
@@ -159,6 +161,9 @@ Um aprendizado sobre python com esse BootCamp é possivel aprender e começar a 
 - [POWER BI. Dashboard](https://learn.microsoft.com/pt-br/power-bi/create-reports/service-dashboard-tiles)
 - [POWER BI. alerts](https://learn.microsoft.com/pt-br/power-bi/create-reports/service-set-data-alerts)
 - [POWER BI. Modelo_Mobile_phone_view](https://learn.microsoft.com/pt-br/power-bi/create-reports/service-create-dashboard-mobile-phone-view)
+- [POWER BI. ObterDados](https://learn.microsoft.com/pt-br/training/modules/get-data/)
+- [POWER BI. Drive_Sample_Financial](https://academiapme-my.sharepoint.com/personal/juliana_mascarenhas_dio_me/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fjuliana%5Fmascarenhas%5Fdio%5Fme%2FDocuments%2Fdataset%5Fpowerbi&ga=1)
+
 
 ## 🔗 Projetos Entregues
 - [Projeto_Contribuição_GIT_GITHUB.md](https://github.com/digitalinnovationone/dio-lab-open-source/blob/main/community/Car-Lopes.md)
@@ -191,3 +196,4 @@ Um aprendizado sobre python com esse BootCamp é possivel aprender e começar a 
 - Fundamentos de BI: KPIs e Métricas
 - Criando Dashboard Interativos com POWER BI
 - Projeto1(Criando um relatorio Interativo)
+- Coleta e Extração de Dados com Power BI
