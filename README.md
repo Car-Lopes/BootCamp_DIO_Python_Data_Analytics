@@ -197,3 +197,4 @@ Um aprendizado sobre python com esse BootCamp é possivel aprender e começar a 
 - Criando Dashboard Interativos com POWER BI
 - Projeto1(Criando um relatorio Interativo)
 - Coleta e Extração de Dados com Power BI
+- Limpeza e Transformação de Dados com Power BI
