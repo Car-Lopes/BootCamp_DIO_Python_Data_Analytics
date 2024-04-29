@@ -87,6 +87,11 @@ Um aprendizado sobre python com esse BootCamp é possivel aprender e começar a 
   - Dashboard
   - Integrando e Extraindo dados de outros sistemas e/ou banco de dados com o Power Query
 
+#### MACHINE LEARNING(ML)
+  - Conhecendo Machine Learning e Inteligencia Artificial  
+  - Algoritimos Bioinspirados
+  - Algoritimos Heurísticos x Deterministicos
+
 ## 🛠️ Ferramentas
 
 [![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git&logoColor=E94D5F)](https://git-scm.com/doc) 
@@ -198,3 +203,6 @@ Um aprendizado sobre python com esse BootCamp é possivel aprender e começar a 
 - Projeto1(Criando um relatorio Interativo)
 - Coleta e Extração de Dados com Power BI
 - Limpeza e Transformação de Dados com Power BI
+- Processando e  Transformando Dados com Power BI
+- Introdução ao Machine Learning
+- Metodo de Machine Learning Bioinspirados
