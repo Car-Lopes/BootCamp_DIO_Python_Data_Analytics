@@ -91,6 +91,8 @@ Um aprendizado sobre python com esse BootCamp é possivel aprender e começar a 
   - Conhecendo Machine Learning e Inteligencia Artificial  
   - Algoritimos Bioinspirados
   - Algoritimos Heurísticos x Deterministicos
+  - Redes Neurais
+  - Algoritimos de SVM
 
 ## 🛠️ Ferramentas
 
@@ -119,7 +121,7 @@ Um aprendizado sobre python com esse BootCamp é possivel aprender e começar a 
 
 
 
-## Referências
+## 📚 Referências
 
 - [GIT. Documentation](https://git-scm.com/doc)
 - [GITHUB. Documentation](https://docs.github.com/)
@@ -168,6 +170,9 @@ Um aprendizado sobre python com esse BootCamp é possivel aprender e começar a 
 - [POWER BI. Modelo_Mobile_phone_view](https://learn.microsoft.com/pt-br/power-bi/create-reports/service-create-dashboard-mobile-phone-view)
 - [POWER BI. ObterDados](https://learn.microsoft.com/pt-br/training/modules/get-data/)
 - [POWER BI. Drive_Sample_Financial](https://academiapme-my.sharepoint.com/personal/juliana_mascarenhas_dio_me/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fjuliana%5Fmascarenhas%5Fdio%5Fme%2FDocuments%2Fdataset%5Fpowerbi&ga=1)
+- [Machine Learning. Leitura](https://academiapme-my.sharepoint.com/personal/renato_dio_me/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Frenato%5Fdio%5Fme%2FDocuments%2FDigital%20Innovation%20One%2Fslides%20aulas%20diversas%2FTrilhas%2FMachine%20Learning%2FComo%20funciona%20o%20Deep%20Learning%5F2017%2Epdf&parent=%2Fpersonal%2Frenato%5Fdio%5Fme%2FDocuments%2FDigital%20Innovation%20One%2Fslides%20aulas%20diversas%2FTrilhas%2FMachine%20Learning&ga=1)
+- [IA. Demosntração](https://www.youtube.com/watch?v=P7XHzqZjXQs)
+- [IA. DemosntraçãoLocomotion](https://www.youtube.com/watch?v=pgaEE27nsQw)
 
 
 ## 🔗 Projetos Entregues
@@ -206,3 +211,7 @@ Um aprendizado sobre python com esse BootCamp é possivel aprender e começar a 
 - Processando e  Transformando Dados com Power BI
 - Introdução ao Machine Learning
 - Metodo de Machine Learning Bioinspirados
+- Redes Neurais Artificiais
+- Algoritmos Geneticos
+- Algoritmos de SVM (Support Vector Machine)
+- Classificação de Problemas-Explorando Datasets
