@@ -93,6 +93,8 @@ Um aprendizado sobre python com esse BootCamp é possivel aprender e começar a 
   - Algoritimos Heurísticos x Deterministicos
   - Redes Neurais
   - Algoritimos de SVM
+  - Linguagens de Programação para Machine Learning
+  - Python para Machine Learning
 
 ## 🛠️ Ferramentas
 
@@ -105,6 +107,7 @@ Um aprendizado sobre python com esse BootCamp é possivel aprender e começar a 
 [![PYTHON](https://img.shields.io/badge/PYTHON-fff000?style=for-the-badge&logo=Python&logoColor=yellow&labelColor=black&color=black)](https://www.python.org/downloads/)
 [![POWER BI](https://img.shields.io/badge/POWER%20BI%20-%20%23000000?style=for-the-badge&logo=POWER%20BI&logoColor=Balck&labelColor=Black)](https://www.microsoft.com/pt-br/power-platform/products/power-bi)
 [![KAGGLE](https://img.shields.io/badge/Kaggle%20-%20%23000000?style=for-the-badge&logo=Kaggle&logoColor=blue&labelColor=Black)](https://www.kaggle.com/)
+[![REPLIT](https://img.shields.io/badge/replit%20-%20black?style=for-the-badge&logo=replit)](https://replit.com/)
 
 
 
@@ -180,6 +183,7 @@ Um aprendizado sobre python com esse BootCamp é possivel aprender e começar a 
 - [Projeto_Desafio_Codigo](https://github.com/Car-Lopes/BootCamp_DIO_Python_Data_Analytics/tree/master/Python/Python/Desafios)
 - [Projeto_DIO_PowerBI](https://github.com/Car-Lopes/Projeto_DIO_PowerBI)
 - [Projeto_Base_DIO](https://github.com/julianazanelatto/power_bi_analyst)
+- [Python. Exemplos](https://www.huicode.com.br/2020/09/ler-um-valor-inteiro-aceitar-somente.html)
 
 ## 📜 Certificados
 
@@ -215,3 +219,10 @@ Um aprendizado sobre python com esse BootCamp é possivel aprender e começar a 
 - Algoritmos Geneticos
 - Algoritmos de SVM (Support Vector Machine)
 - Classificação de Problemas-Explorando Datasets
+- Linguagens de Programação para Machine Learning
+- Python para Machine Learning na Pratica
+- Avaliação do Bootcamp
+
+
+## 📃 CERTIFICADO DE CONCLUSÃO
+- CERTIFICADO DE CONCLUSÃO BOOTCAMP PYTHON DATA ANALYTICS
